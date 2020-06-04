@@ -1,0 +1,173 @@
+
+ 
+
+Jun  7 12:23:37 ip-10-75-12-36 sshd[27799]: pam_unix(sshd:session): session closed for user nidhi.srivastava
+
+ 
+
+Jun  7 12:37:29 ip-10-75-12-36 sshd[12770]: Accepted password for prashant.kumar1 from 10.1.51.159 port 59650 ssh2
+
+Jun  7 12:37:29 ip-10-75-12-36 sshd[12770]: pam_unix(sshd:session): session opened for user prashant.kumar1 by (uid=0)
+
+Jun  7 12:37:29 ip-10-75-12-36 sshd[12770]: pam_tty_audit(sshd:session): changed status from 0 to 0
+
+Jun  7 12:37:46 ip-10-75-12-36 CROND[12731]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:37:52 ip-10-75-12-36 sshd[12834]: Accepted publickey for ec2-user from 10.1.51.86 port 58282 ssh2
+
+Jun  7 12:37:52 ip-10-75-12-36 sshd[12834]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+
+Jun  7 12:38:01 ip-10-75-12-36 CROND[12863]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:38:06 ip-10-75-12-36 sudo: prashant.kumar1 : TTY=pts/0 ; PWD=/home/prashant.kumar1 ; USER=root ; COMMAND=/usr/bin/yum history
+
+Jun  7 12:38:07 ip-10-75-12-36 sudo: ec2-user : TTY=pts/1 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/su -
+
+Jun  7 12:38:07 ip-10-75-12-36 su: pam_unix(su-l:session): session opened for user root by ec2-user(uid=0)
+Jun  7 12:37:29 ip-10-75-12-36 sshd[12770]: Accepted password for prashant.kumar1 from 10.1.51.159 port 59650 ssh2
+Jun  7 12:37:29 ip-10-75-12-36 sshd[12770]: Accepted password for prashant.kumar1 from 10.1.51.159 port 59650 ssh2
+Jun  7 12:37:29 ip-10-75-12-36 sshd[12770]: Failed password for prashant.kumar1 from 10.1.51.159 port 59650 ssh2
+
+Jun  7 12:38:07 ip-10-75-12-36 su: pam_tty_audit(su-l:session): changed status from 0 to 1
+
+Jun  7 12:38:32 ip-10-75-12-36 useradd[12953]: failed adding user 'vishal.talwar', data deleted
+
+Jun  7 12:38:32 ip-10-75-12-36 passwd: pam_cracklib(passwd:chauthtok): pam_parse: unknown option; minlength=8
+
+Jun  7 12:38:32 ip-10-75-12-36 passwd: pam_cracklib(passwd:chauthtok): pam_parse: unknown option; minlength=8
+
+Jun  7 12:38:32 ip-10-75-12-36 passwd: pam_unix(passwd:chauthtok): password changed for vishal.talwar
+
+Jun  7 12:38:32 ip-10-75-12-36 useradd[12960]: failed adding user 'subham.kumar', data deleted
+
+Jun  7 12:38:32 ip-10-75-12-36 passwd: pam_cracklib(passwd:chauthtok): pam_parse: unknown option; minlength=8
+
+Jun  7 12:38:32 ip-10-75-12-36 passwd: pam_cracklib(passwd:chauthtok): pam_parse: unknown option; minlength=8
+
+Jun  7 12:38:32 ip-10-75-12-36 passwd: pam_unix(passwd:chauthtok): password changed for subham.kumar
+
+Jun  7 12:38:46 ip-10-75-12-36 CROND[12866]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:39:01 ip-10-75-12-36 crond[12979]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:39:01 ip-10-75-12-36 crond[12978]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:39:01 ip-10-75-12-36 crond[12977]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:39:01 ip-10-75-12-36 crond[12980]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:39:01 ip-10-75-12-36 CROND[12977]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:39:27 ip-10-75-12-36 sshd[12834]: pam_unix(sshd:session): session closed for user ec2-user
+
+Jun  7 12:39:27 ip-10-75-12-36 su: pam_unix(su-l:session): session closed for user root
+
+Jun  7 12:39:27 ip-10-75-12-36 su: pam_tty_audit(su-l:session): restored status to 0
+
+Jun  7 12:39:43 ip-10-75-12-36 sudo: prashant.kumar1 : TTY=pts/0 ; PWD=/home/prashant.kumar1 ; USER=root ; COMMAND=/usr/bin/sudo yum list-security --security
+
+Jun  7 12:39:43 ip-10-75-12-36 sudo: prashant.kumar1 : TTY=pts/0 ; PWD=/home/prashant.kumar1 ; USER=root ; COMMAND=/usr/bin/yum list-security --security
+
+Jun  7 12:39:46 ip-10-75-12-36 CROND[12980]: pam_tty_audit(crond:session): restored status to 0
+
+ 
+
+Jun  7 12:41:07 ip-10-75-12-36 sudo: prashant.kumar1 : TTY=pts/0 ; PWD=/home/prashant.kumar1 ; USER=root ; COMMAND=/usr/bin/yum update --security --exclude=java-1.8.0-*
+
+Jun  7 12:41:47 ip-10-75-12-36 CROND[13237]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:42:01 ip-10-75-12-36 crond[13331]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:42:01 ip-10-75-12-36 crond[13332]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:42:01 ip-10-75-12-36 crond[13334]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:42:01 ip-10-75-12-36 crond[13333]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:42:01 ip-10-75-12-36 CROND[13331]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:42:08 ip-10-75-12-36 sudo: prashant.kumar1 : TTY=pts/0 ; PWD=/home/prashant.kumar1 ; USER=root ; COMMAND=/usr/bin/yum update --security --exclude=java-1.8.0-* -y
+
+Jun  7 12:42:46 ip-10-75-12-36 CROND[13334]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:43:01 ip-10-75-12-36 crond[13411]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:43:01 ip-10-75-12-36 crond[13412]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:43:01 ip-10-75-12-36 crond[13409]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:43:01 ip-10-75-12-36 crond[13410]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:43:01 ip-10-75-12-36 CROND[13409]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:43:34 ip-10-75-12-36 sudo: prashant.kumar1 : TTY=pts/0 ; PWD=/home/prashant.kumar1 ; USER=root ; COMMAND=/usr/bin/yum clean all
+
+Jun  7 12:43:34 ip-10-75-12-36 sshd[13473]: Accepted publickey for ec2-user from 10.1.51.86 port 58343 ssh2
+
+Jun  7 12:43:35 ip-10-75-12-36 sshd[13473]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+
+Jun  7 12:43:35 ip-10-75-12-36 sshd[13473]: pam_tty_audit(sshd:session): changed status from 0 to 0
+
+Jun  7 12:43:36 ip-10-75-12-36 sudo: ec2-user : TTY=pts/1 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/su -
+
+Jun  7 12:43:36 ip-10-75-12-36 su: pam_unix(su-l:session): session opened for user root by ec2-user(uid=0)
+
+Jun  7 12:43:36 ip-10-75-12-36 su: pam_tty_audit(su-l:session): changed status from 0 to 1
+
+Jun  7 12:43:41 ip-10-75-12-36 sudo: prashant.kumar1 : TTY=pts/0 ; PWD=/home/prashant.kumar1 ; USER=root ; COMMAND=/usr/bin/yum update --security --exclude=java-1.8.0-* -y
+
+Jun  7 12:43:46 ip-10-75-12-36 CROND[13412]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:44:01 ip-10-75-12-36 crond[13544]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:44:01 ip-10-75-12-36 crond[13545]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:44:01 ip-10-75-12-36 crond[13543]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:44:01 ip-10-75-12-36 crond[13542]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:44:01 ip-10-75-12-36 CROND[13542]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:44:22 ip-10-75-12-36 useradd[13606]: failed adding user 'vishal.talwar', data deleted
+
+Jun  7 12:44:22 ip-10-75-12-36 passwd: pam_cracklib(passwd:chauthtok): pam_parse: unknown option; minlength=8
+
+Jun  7 12:44:22 ip-10-75-12-36 passwd: pam_cracklib(passwd:chauthtok): pam_parse: unknown option; minlength=8
+
+Jun  7 12:44:22 ip-10-75-12-36 passwd: pam_unix(passwd:chauthtok): password changed for vishal.talwar
+
+Jun  7 12:44:46 ip-10-75-12-36 CROND[13545]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:45:01 ip-10-75-12-36 crond[13635]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:45:01 ip-10-75-12-36 crond[13641]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:45:01 ip-10-75-12-36 crond[13640]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:45:01 ip-10-75-12-36 crond[13639]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:45:01 ip-10-75-12-36 crond[13636]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:45:01 ip-10-75-12-36 crond[13634]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:45:01 ip-10-75-12-36 crond[13638]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:45:01 ip-10-75-12-36 crond[13637]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:45:01 ip-10-75-12-36 CROND[13634]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:45:01 ip-10-75-12-36 CROND[13640]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:45:03 ip-10-75-12-36 CROND[13641]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:45:12 ip-10-75-12-36 sudo: prashant.kumar1 : TTY=pts/0 ; PWD=/home/prashant.kumar1 ; USER=root ; COMMAND=/usr/bin/yum clean all
+
+Jun  7 12:45:46 ip-10-75-12-36 CROND[13639]: pam_tty_audit(crond:session): restored status to 0
+
+Jun  7 12:46:01 ip-10-75-12-36 crond[13821]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:46:01 ip-10-75-12-36 crond[13818]: pam_tty_audit(crond:session): changed status from 0 to 1
+
+Jun  7 12:46:01 ip-10-75-12-36 crond[13819]: pam_tty_audit(crond:session): changed status from 0 to 0
+
+Jun  7 12:46:01 ip-10-75-12-36 crond[13820]: pam_tty_audit(crond:session): changed status from 0 to 0
